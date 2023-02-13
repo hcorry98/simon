@@ -1,2 +1,2 @@
-# simon
+# Simon
 Rebuilding the game Simon.
