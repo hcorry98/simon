@@ -5,9 +5,10 @@
         <meta name="viewport" content="wid=device-width, initial-scale=1.0" />
         <title>Simon</title>
         <link rel="icon" href="favicon.ico" />
+
+        <script src="login.js"></script>
         <link rel="stylesheet" href="main.css" />
 
-        <!-- Include bootstrap CSS framework -->
         <link
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
         rel="stylesheet"
@@ -42,7 +43,7 @@
                 <p>Login to play</p>
                 <form method="get" action="play.html">
                     <input type="text" id="name" placeholder="Your name here" />
-                    <button type="submit" class="btn btn-primary">Login</button>
+                    <button class="btn btn-primary" onclick="login()">Login</button>
                 </form>
             </div>
         </main>
