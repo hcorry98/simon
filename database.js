@@ -32,7 +32,7 @@ async function createUser(email, password) {
     const user = {
         email: email,
         password: passwordHash,
-        toekn: uuid.v4()
+        token: uuid.v4()
     };
     await userCollection.insertOne(user);
 

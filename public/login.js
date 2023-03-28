@@ -9,6 +9,7 @@
     }
 
     if (authenticated) {
+        console.log('authenticated')
         document.querySelector('#playerName').textContent = userName;
         setDisplay('loginControls', 'none');
         setDisplay('playControls', 'block');
