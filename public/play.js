@@ -203,7 +203,7 @@ class Game {
     displayMsg(cls, from, msg) {
         const chatText = document.querySelector('#player-messages');
         chatText.innerHTML = 
-            `<div class="event"><span class="${cls}-event">${from}</span>${msg}</div>` + chatText.innerHTML;
+            `<div class="event"><span class="${cls}-event">${from}</span> ${msg}</div>` + chatText.innerHTML;
     }
 
     broadcastEvent(from, type, value) {
